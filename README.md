@@ -53,6 +53,33 @@ Please read this document carefully and follow the instrucitons above and the la
 
 You should provide enough instructions for the reviewer to build and run your works.
 
+
+## Environment
+
+### Prerequisite
+- python 3.7
+
+### Install virtualenv (optional)
+1. Install following https://virtualenv.pypa.io/en/latest/installation.html
+2. setup a virtualenv
+```python
+$ virtualenv -p $(which python3) venv
+$ source venv/bin/activate
+```
+
+### Install python dependency
+```python
+$ pip install -r requirements.txt
+```
+
+### Run the main file
+```
+$ python sudoku.py
+```
+And wait for the result
+
+
+
 #### Language
 
 You can choose from [Golang][golangSite], [JavaScript][jsSite], or Python.
