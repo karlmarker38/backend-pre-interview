@@ -62,18 +62,18 @@ You should provide enough instructions for the reviewer to build and run your wo
 ### Install virtualenv (optional)
 1. Install following https://virtualenv.pypa.io/en/latest/installation.html
 2. setup a virtualenv
-```python
+```sh
 $ virtualenv -p $(which python3) venv
 $ source venv/bin/activate
 ```
 
 ### Install python dependency
-```python
+```sh
 $ pip install -r requirements.txt
 ```
 
 ### Run the main file
-```
+```sh
 $ python sudoku.py
 ```
 And wait for the result
